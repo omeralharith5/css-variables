@@ -13,8 +13,12 @@ h1, p {
     color: var(--red);
 }
 
+#navbar {
+    --navbar-red: #ff6f19;
+}
+
 #navbar a {
-    color: var(--red);
+    color: var(--navbar-red);
 }
 
 .item {
