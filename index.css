@@ -18,6 +18,7 @@ h1, p {
 }
 
 .item {
+    --red: #ff8e69;
     background: var(--yellow);
 }
 
