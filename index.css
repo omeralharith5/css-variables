@@ -2,6 +2,7 @@
     --red: #ff6f69;
     --beige: #ffeead;
     --yellow: #ffcc5c;
+    --main-color: var(--red);
     --columns: 200px 200px;
 }
 
@@ -15,11 +16,11 @@ h1, p {
 }
 
 #navbar {
-    --navbar-red: #ff6f19;
+    --main-color: orange;
 }
 
 #navbar a {
-    color: var(--navbar-red);
+    color: var(--main-color);
 }
 
 .item {
