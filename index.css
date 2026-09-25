@@ -2,6 +2,7 @@
     --red: #ff6f69;
     --beige: #ffeead;
     --yellow: #ffcc5c;
+    --columns: 200px 200px;
 }
 
 html, body {
@@ -34,4 +35,18 @@ button {
 .featured{
     --red: #ffcc5c;
     --yellow: #ff6f69;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: var(--columns);
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+@media all and (max-width: 500px) {
+    .grid {
+        --columns: 200px;
+    }
 }
